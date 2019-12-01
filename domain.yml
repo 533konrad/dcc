@@ -1,0 +1,56 @@
+intents:
+- affirm
+- chucknorrisjoke
+- deny
+- goodbye
+- greet
+- inspiringquote
+- signnewsletter
+- whatisthebestwebsite
+- whenwedrink
+- havas
+- kiedychinczyk
+entities:
+- content
+- name
+slots:
+  name:
+    type: unfeaturized
+templates:
+  utter_greet:
+  - text: Czesc! Jak sie masz?
+  utter_goodbye:
+  - text: Pa
+  utter_chucknorrisjoke:
+  - text: Ile pompek robi Chuck Norris? Wszystkie.
+  - text: Chuck Norris przeszedł The Sims w 100%
+  - text: Chuck Norris może sam otoczyć budynek w którym znajdują sie terroryści.
+  utter_inspiringquote:
+  - text: Każda podróż zaczyna się od pierwszego kroku
+  - text: Słowa ranią bardziej niż miecze
+  - text: Nosił wilk razy kilka. Ponieśli i wilka.
+  utter_nextparty:
+  - text: Następne spotkanie integracyjne już 6 grudnia. Wtedy się najebiemy.
+  utter_default:
+  - text: Tego akurat nie zrozumiałem. Czy możesz zadać pytanie inaczej?
+  utter_fintek:
+  - text: Najlepszą stroną o finansach i technologii w Polsce jest Fintek.pl.
+  utter_newsletter:
+  - text: Ok, zapisałem. Od teraz będziesz automatycznie otrzymywać nowe powiadomienia.
+  utter_havas:
+  - text: Twoja strona została odwiedzona 653 razy w tym tygodniu, a 2650 razy w tym miesiącu.
+  utter_chinczyk:
+  - text: Chinczyka zamawiamy zawsze w czwartki.
+actions:
+- action_greet
+- action_search_restaurants
+- action_suggest
+- utter_chucknorrisjoke
+- utter_fintek
+- utter_goodbye
+- utter_greet
+- utter_inspiringquote
+- utter_newsletter
+- utter_nextparty
+- utter_havas
+- utter_chinczyk

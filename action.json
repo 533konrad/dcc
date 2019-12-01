@@ -1,0 +1,42 @@
+{
+   "actions": [
+      {
+        "description": "Default Welcome Intent",
+        "name": "MAIN",
+        "fulfillment": {
+          "conversationName": "welcome"
+        },
+        "intent": {
+          "name": "actions.intent.MAIN",
+          "trigger": {
+            "queryPatterns":["pogadaj z Zieloną Papugą"]
+          }
+        }
+      },
+    {
+        "description": "Rasa Intent",
+        "name": "TEXT",
+        "fulfillment": {
+          "conversationName": "rasa_intent"
+        },
+        "intent": {
+          "name": "actions.intent.TEXT",
+          "trigger": {
+            "queryPatterns":[]
+          }
+        }
+      }],
+    "conversations": {
+      "welcome": {
+        "name": "welcome",
+        "url": "https://fceb12d1.ngrok.io/webhooks/google_assistant/webhook",
+        "fulfillmentApiVersion": 2
+    },
+      "rasa_intent": {
+        "name": "rasa_intent",
+        "url": "https://fceb12d1.ngrok.io/webhooks/google_assistant/webhook",
+        "fulfillmentApiVersion": 2
+    }
+  },
+  "locale": "pl"
+}

@@ -1,0 +1,225 @@
+2019-08-29 16:39:48,664 [ERROR]  Exception occurred while handling uri: 'http://7a4a3a8e.ngrok.io/webooks/google_assistant/webhook'
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webooks/google_assistant/webhook not found
+2019-08-29 16:39:49,507 [ERROR]  Exception occurred while handling uri: 'http://7a4a3a8e.ngrok.io/favicon.ico'
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /favicon.ico not found
+2019-08-29 16:40:23,171 [ERROR]  Exception occurred while handling uri: 'http://7a4a3a8e.ngrok.io/webhooks/google_assistant/webhook'
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhooks/google_assistant/webhook not found
+2019-08-29 16:50:17,499 [ERROR]  Exception occurred while handling uri: 'http://7a4a3a8e.ngrok.io/webhooks/google_assistant/webhook'
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhooks/google_assistant/webhook not found
+2019-08-29 16:51:11,261 [ERROR]  Exception occurred while handling uri: 'http://7a4a3a8e.ngrok.io/webhooks/google_assistant/webhook'
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhooks/google_assistant/webhook not found
+2019-08-29 16:51:25,497 [ERROR]  Exception occurred while handling uri: 'http://7a4a3a8e.ngrok.io/webhooks/google_assistant/webhook'
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhooks/google_assistant/webhook not found
+2019-08-29 16:52:27,960 [ERROR]  Exception occurred while handling uri: 'http://7a4a3a8e.ngrok.io/webhooks/google_assistant/webhook'
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhooks/google_assistant/webhook not found
+2019-08-29 16:54:52,497 [ERROR]  Exception occurred while handling uri: 'http://7a4a3a8e.ngrok.io/webook/slack'
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webook/slack not found
+2019-08-29 16:55:15,832 [ERROR]  Exception occurred while handling uri: 'http://7a4a3a8e.ngrok.io/webook'
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webook not found
+2019-08-29 16:56:05,976 [ERROR]  Exception occurred while handling uri: 'http://7a4a3a8e.ngrok.io/webhooks/google_assistant/webhook'
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhooks/google_assistant/webhook not found
+2019-08-29 17:15:13,540 [ERROR]  Exception occurred while handling uri: 'http://7a4a3a8e.ngrok.io/webhook'
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhook not found
+2019-08-29 17:15:16,166 [ERROR]  Exception occurred while handling uri: 'http://7a4a3a8e.ngrok.io/webhooks'
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhooks not found
+2019-08-29 17:24:11,661 [ERROR]  Exception occurred while handling uri: 'http://7a4a3a8e.ngrok.io/webhooks'
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhooks not found
+2019-08-29 17:24:14,067 [ERROR]  Exception occurred while handling uri: 'http://7a4a3a8e.ngrok.io/webhook'
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhook not found
+2019-08-29 17:24:30,064 [ERROR]  Exception occurred while handling uri: 'http://7a4a3a8e.ngrok.io/webhooks/google_assistant/webhook'
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 446, in _get
+    raise method_not_supported
+sanic.exceptions.MethodNotSupported: Method GET not allowed for URL /webhooks/google_assistant/webhook
+2019-08-29 17:25:00,283 [ERROR]  Exception occurred while handling uri: 'http://7a4a3a8e.ngrok.io/webhooks/google_assistant/webhook'
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 446, in _get
+    raise method_not_supported
+sanic.exceptions.MethodNotSupported: Method GET not allowed for URL /webhooks/google_assistant/webhook
+2019-08-29 17:45:15,615 [ERROR]  Exception occurred while handling uri: 'http://7a4a3a8e.ngrok.io/webhook'
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhook not found
+2019-08-29 17:45:22,033 [ERROR]  Exception occurred while handling uri: 'http://7a4a3a8e.ngrok.io/webhook/google_assistant'
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhook/google_assistant not found
+2019-08-29 17:45:24,497 [ERROR]  Exception occurred while handling uri: 'http://7a4a3a8e.ngrok.io/webhook/google_assistant/webook'
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhook/google_assistant/webook not found
+2019-08-29 17:45:27,548 [ERROR]  Exception occurred while handling uri: 'http://7a4a3a8e.ngrok.io/webhook/google_assistant/webhook'
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhook/google_assistant/webhook not found
+2019-08-29 17:45:32,999 [ERROR]  Exception occurred while handling uri: 'http://7a4a3a8e.ngrok.io/webhooks'
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhooks not found
+2019-08-29 17:45:36,325 [ERROR]  Exception occurred while handling uri: 'http://7a4a3a8e.ngrok.io/webhooks/google_assistant/webhook'
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 446, in _get
+    raise method_not_supported
+sanic.exceptions.MethodNotSupported: Method GET not allowed for URL /webhooks/google_assistant/webhook
+2019-09-02 09:20:03,803 [ERROR]  Exception occurred while handling uri: 'http://e9d942f7.ngrok.io/favicon.ico'
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /favicon.ico not found
+2019-09-03 09:51:19,720 [ERROR]  Exception occurred while handling uri: 'http://de4f6c0b.ngrok.io/favicon.ico'
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /favicon.ico not found
+2019-10-18 08:08:31,253 [ERROR]  Exception occurred while handling uri: 'http://45e73937.ngrok.io/favicon.ico'
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.7/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/anaconda3/lib/python3.7/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /favicon.ico not found
